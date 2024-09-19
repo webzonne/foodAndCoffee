@@ -48,26 +48,26 @@ export default function Home() {
           {/* Botones */}
           <div className="space-y-4 w-full">
             {/* WHATSAPP */}
-            <Link href="https://wa.me/your-whatsapp-link">
+            <Link href="https://wa.me/message/TNQSW3JQEZTGO1">
               <div className="bg-brown-custom text-white mt-2 px-4 py-3 md:px-6 md:py-2 rounded-full flex items-center justify-center space-x-2 transition-transform transform hover:scale-105 cursor-pointer">
                 <span>WHATSAPP</span>
                 <FontAwesomeIcon icon={faWhatsapp} />
               </div>
             </Link>
               {/* UBICACION */}
-            <Link href="https://facebook.com/your-page">
+            <Link href="https://maps.google.com/?dirflg=w&daddr=8.9307290,-67.4289020&geocode=FalFiAAd2x37-w%3D%3D&lucs=s2se,a2">
               <div className="bg-brown-custom text-white mt-2 px-4 py-3 md:px-6 md:py-2 rounded-full flex items-center justify-center space-x-2 transition-transform transform hover:scale-105 cursor-pointer">
                 <span>UBICACIÓN</span>
                 <FontAwesomeIcon icon={faMapMarkerAlt} />
               </div>
             </Link>
-
-            <Link href="/ubicacion">
+             {/* FACEBOOK */}
+            {/* <Link href="https://www.facebook.com/share/PbS6y9WZekZPWv5U/?mibextid=LQQJ4d">
               <div className="bg-brown-custom text-white mt-2 px-4 py-3 md:px-6 md:py-2 rounded-full flex items-center justify-center space-x-2 transition-transform transform hover:scale-105 cursor-pointer">
                 <span>FACEBOOK</span>
                 <FontAwesomeIcon icon={faFacebook} />
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
